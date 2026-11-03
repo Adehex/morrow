@@ -5,23 +5,16 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Morrow — Considered secondhand fashion',
   description: 'Unique, quality-checked thrift fashion for wardrobes with a point of view. Shop Morrow in Lagos and beyond.',
-  generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+  openGraph: {
+    title: 'Morrow — Considered secondhand fashion',
+    description: 'Unique, quality-checked thrift fashion for wardrobes with a point of view. Shop Morrow in Lagos and beyond.',
+    siteName: 'Morrow',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Morrow — Considered secondhand fashion',
+    description: 'Unique, quality-checked thrift fashion for wardrobes with a point of view. Shop Morrow in Lagos and beyond.',
   },
 }
 
